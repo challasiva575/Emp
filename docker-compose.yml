@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+
+  application1:
+    image: emptwo
+
+    ports:
+      - "8080:9091"
+
+    networks:
+      - siva
+
+    volumes:
+      - /data/emp1
+
+  application2:
+    image: empone
+
+    ports:
+      - "8081:9091"
+
+    networks:
+      - siva
+
+    volumes:
+      - /data/emp2
+
+networks:
+  siva:
