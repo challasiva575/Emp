@@ -26,4 +26,8 @@ public class EmpRest {
 
 	    return employees;
 	}
+	
+	public void name1() {
+		
+	}
 }
