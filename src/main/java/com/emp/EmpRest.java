@@ -23,11 +23,11 @@ public class EmpRest {
 	    employees.add(new EmpDTO(3L, "Kumar", "Finance", 60000.0));
 
 	    System.out.println("############");
-	    System.out.println("What is git revert");
 
 	    return employees;
 	}
 	
-
-	
+	public void name1() {
+		
+	}
 }
